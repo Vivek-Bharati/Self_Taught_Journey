@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Software Engineer Career Insights Survey</title>
+  </head>
+
+  <body>
+    
+      <h1 id="title">Software Engineer Career Insights Survey</h1>
+      <p id="description">This survey aims to collect data on software engineers' educational backgrounds, job roles, career satisfaction, salary levels, work-life balance, skill preferences, and future aspirations. Your responses will help us analyze industry trends, challenges, and opportunities. The survey is anonymous and takes only a few minutes to complete. Thank you for your valuable input!</p>
+      <form id="survey-form">
+        
+        <section>
+          <div>
+            <label for="name" id="name-label"=label>Name</label>
+            <input type="text" id="name" placeholder="Vivek" required>
+          </div>
+
+          <div>
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="example@email.com" required>
+          </div>
+
+          <div>
+            <label for="number" id="number-label">Number</label>
+            <input type="number" id="number" min="10" max="12" placeholder="1234567890" required>
+          </div>
+        </section>
+
+
+        <section>
+
+          <h2>Educational Background</h2>
+
+          <select id="dropdown">
+
+            <option name="education">
+            Self-Taught  
+            
+            </option>
+
+            <option name="education">
+            Bachelor's Degree  
+            
+            </option>
+
+            <option name="education">
+            Master's Degree
+
+            <option name="education">
+            Phd  
+            
+            </option>  
+          </select>
+        </section>
+
+        
+        <section>
+        <h2>Is CS degree necessary foe software engineer job?</h2>
+          <div>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" value="yes" name="degree-requirement">
+            
+            <label for="no">No</label>
+            <input checked type="radio" id="no" value="no" name="degree-requirement">
+          </div>
+        </section>
+
+        <section>
+          <h2>Which programming languages do you use?</h2>
+          <div>
+
+            <label for="python">Python</label>
+            <input checked type="checkbox" id="python" value="python" name="programming-language">
+
+            <label for="javaScript">JavaScript</label>
+            <input type="checkbox" id="javascript" value="javascript" name="programming-language">
+
+            <label for="java">Java</label>
+            <input type="checkbox" id="java" value="java" name="programming-language">
+
+            <label for="c++">C++</label>
+            <input type="checkbox" id="c++" value="c++" name="programming-language">  
+          </div>
+        </section>
+
+        <div>
+          <h2>AI: Boon or Curse for Software Development Job!</h2>
+          <p>What do you think about it?</p>
+          <textarea rows="5" cols="40"></textarea>
+          <button id="submit">sumbit</button>
+        </div>
+
+        
+      </form>
+
+    
+  </body>
+</html>
